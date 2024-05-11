@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px 1px 2rem 1.25rem hsl(150, 100%, 66%, 0.4);
+}
